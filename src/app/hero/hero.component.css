@@ -1,0 +1,51 @@
+.app-hero {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1088.4px;
+  margin-top: 4rem;
+}
+
+.hero-heading {
+  max-width: 27.75rem;
+  font-weight: 700;
+  font-size: 2.118rem;
+  line-height: 2.75rem;
+}
+
+.hero-subtext {
+  max-width: 33.75rem;
+  margin-top: 1.563rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+}
+
+.hero-button {
+  margin-top: 2.313rem;
+  outline: none;
+  background-color: var(--primary-yellow);
+  padding: 1.25rem 3.5rem;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero-social-links {
+  margin-top: 1.75rem;
+  display: flex;
+  gap: 15px;
+}
+
+.hero-section-right img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .app-hero {
+    flex-direction: column;
+  }
+}

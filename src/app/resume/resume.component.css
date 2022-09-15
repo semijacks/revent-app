@@ -1,0 +1,70 @@
+.app-resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  margin-top: 4rem;
+}
+
+.resume-heading {
+  display: flex;
+  flex-direction: column;
+  max-width: 146px;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-heading h2 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.286rem;
+}
+
+.resume-body {
+  display: flex;
+  gap: 35rem;
+  margin: 0 auto;
+  max-width: 1088.4px;
+  margin-top: 3.688rem;
+}
+
+.resume-body-left {
+  display: flex;
+  flex: 50%;
+  border-left: 4px solid var(--primary-yellow);
+  padding-left: 33.5px;
+}
+
+.resume-body-right {
+  display: flex;
+  flex: 50%;
+  border-left: 4px solid var(--primary-yellow);
+  padding-left: 33.5px;
+}
+
+.resume-body-text h2 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.286rem;
+}
+
+.resume-body-text h3 {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.676rem;
+}
+
+.resume-body-text p {
+  margin-top: 0.75rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume-body {
+    gap: 1rem;
+  }
+}

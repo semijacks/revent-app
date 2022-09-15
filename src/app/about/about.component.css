@@ -1,0 +1,77 @@
+.app-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  margin-top: 4rem;
+}
+
+.about-heading {
+  display: flex;
+  flex-direction: column;
+  max-width: 146px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-heading h2 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.286rem;
+}
+
+.about-body {
+  display: flex;
+  gap: 3.103rem;
+  align-items: flex-end;
+  margin: 0 auto;
+  max-width: 1088.4px;
+  margin-top: 3.688rem;
+}
+
+.about-body-image {
+  flex: 50%;
+}
+
+.about-body-image img {
+  width: 100%;
+}
+
+.about-body-details {
+  flex: 50%;
+}
+
+.about-body-details h3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.about-body-details p {
+  margin-top: 1.563rem;
+  font-weight: 400;
+  font-family: var(--font-secondary);
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+}
+
+.about-body-details button {
+  margin-top: 2.313rem;
+  outline: none;
+  background-color: var(--primary-yellow);
+  padding: 1.25rem 3.5rem;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-body {
+    flex-direction: column;
+    align-items: center;
+  }
+}

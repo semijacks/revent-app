@@ -1,0 +1,38 @@
+.app-header {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-container {
+  display: flex;
+  padding-top: 3rem;
+  justify-content: flex-end;
+  gap: 4rem;
+  padding-right: 5%;
+}
+
+.navigation-container a {
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.navigation-container li {
+  list-style-type: none;
+}
+
+.navigation-active a {
+  color: var(--text-secondary);
+}
+
+.app-logo-container {
+  max-width: 1088.4px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .navigation-container {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}
